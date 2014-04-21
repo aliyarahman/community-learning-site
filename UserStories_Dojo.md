@@ -10,6 +10,5 @@
 
 (6) As a Code for Progress staff member, I want to quickly and easily place lesson material and new badge graphics online for users to see, so that I can minimize the number of emails I send and expand access to the material I create.
 
-(7) This is going to be a user story about editing external links - it was Casidy's suggestion.
-
+(7) As a Code for Progress fellow, I want to be able to add external links to the lesson files so that I can contribute to the learning community.
 
