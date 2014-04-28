@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h1> Welcome to the Dojo</h1>
+<br><div id="lesson_material"><h2>Residency Lesson Material</h2></div>
+{% for week in weeks %}
+	<div class="week">Week {{week.number}} : {{week.title}}
+	<ul>
+		{% for lesson in lessons %}
+			{% if lesson.week==week.number %}
+			<li><a href="{{ url_for('lesson', id = lesson.id) }}">Day {{lesson.day}} - {{lesson.title}}</a></li>
+			{% endif %}
+		{% endfor %}
+	</ul>
+	</div>
+{% endfor %}
+
+<br>
+<div id="achievements"><h2>Achievements</h2>
+<ul>
+{% for achievement in achievements %}
+<li><a href="{{ url_for('achievements') }}">{{achievement.category}} {{achievement.number}}: {{achievement.name}}</a></li>
+{% endfor %}
+</ul>
+</div>
+
+<br>
+<div id="code_samples"><h2>Code You Can Use</h2>
+<ul>
+{% for sample in code_samples %}
+<li><a href="{{ url_for('code_sample', id = sample.id) }}">{{sample.name}} ({{sample.language}}) - {{sample.developer_first}} {{sample.developer_last}}</a></li>
+{% endfor %}
+</ul>
+</div>
+
+{% endblock %}

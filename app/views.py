@@ -16,6 +16,20 @@ def index():  #This is the landing page
 	return render_template("index.html", weeks=weeks,lessons = lessons, achievements = achievements, code_samples=code_samples)
 
 
+@app.route('/lessons')
+def lessons():
+	return render_template("lessons.html")
+
+@app.route('/badges')
+def badges():
+	return render_template("badges.html")
+
+@app.route('/codeityourself')
+def codeityourself():
+	return render_template("codeityourself.html")
+
+
+
 @app.route('/achievements')
 def achievements():
 	achievements = Achievement.query.all()
