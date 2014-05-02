@@ -66,3 +66,14 @@ span.text-content { background: rgba(0,0,0,0.5); color: white; cursor: pointer; 
 span.text-content span {display: table-cell;text-align: center;vertical-align: middle;}
  
 .fellow:hover span.text-content {opacity: 1;}
+
+
+.badgeholder 		{display: inline-block}
+.badge 				{background-image: url('../static/medal_blank.jpg'); height:175px; width: 202px;
+					 font: normal 18px "Lucida Console", "Lucida Sans Typewriter", Monaco, 
+					 "Bitstream Vera Sans Mono", monospace;
+					 text-align: center; vertical-align: top;}
+.badgename			{font: bold 18px "Lucida Console", "Lucida Sans Typewriter", Monaco, 
+					"Bitstream Vera Sans Mono", monospace;}
+.badgetable tr 		{vertical-align: top;}
+.badgetable td 		{padding-left: 10px; padding-bottom: 40px;}

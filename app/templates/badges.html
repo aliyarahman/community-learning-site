@@ -3,16 +3,14 @@
 
 <h1 class="page_header"> Pick a category.</h1>
 
-
-
-<div id="bitstripholder"
-<a href="{{ url_for('badges') }}"><div class="bitstripchar"><img src="../static/BASH.png"></div></a>
-<a href="{{ url_for('badges') }}"><div class="bitstripchar"><img src="../static/Python.png"></div></a>
-<a href="{{ url_for('badges') }}"><div class="bitstripchar"><img src="../static/HTML.png"></div></a>
-<a href="{{ url_for('badges') }}"><div class="bitstripchar"><img src="../static/CSS.png"></div></a>
-<a href="{{ url_for('badges') }}"><div class="bitstripchar"><img src="../static/SQL.png"></div></a>
-<a href="{{ url_for('badges') }}"><div class="bitstripchar"><img src="../static/JavaScript.png"></div></a>
-<a href="{{ url_for('badges') }}"><div class="bitstripchar"><img src="../static/FlaskDjango.png"></div></a>
+<div id="bitstripholder">
+<a href="{{ url_for('badge_category', topic="BASH") }}"><div class="bitstripchar"><img src="../static/BASH.png"></div></a>
+<a href="{{ url_for('badge_category', topic="Python") }}"><div class="bitstripchar"><img src="../static/Python.png"></div></a>
+<a href="{{ url_for('badge_category', topic="HTML") }}"><div class="bitstripchar"><img src="../static/HTML.png"></div></a>
+<a href="{{ url_for('badge_category', topic="CSS") }}"><div class="bitstripchar"><img src="../static/CSS.png"></div></a>
+<a href="{{ url_for('badge_category', topic="SQL") }}"><div class="bitstripchar"><img src="../static/SQL.png"></div></a>
+<a href="{{ url_for('badge_category', topic="JavaScript") }}"><div class="bitstripchar"><img src="../static/JavaScript.png"></div></a>
+<a href="{{ url_for('badge_category', topic="FlaskDjango") }}"><div class="bitstripchar"><img src="../static/FlaskDjango.png"></div></a>
 </div>
 
 <div id="bitstripholder">
@@ -26,8 +24,8 @@
 </div>
 
 <div id="badgebutton_holder">
-		<div class="badgebutton">Human-Centered Design</div>
-		<div class="badgebutton">Working in the movement</div>
+		<a href="{{ url_for('badge_category', topic="Design") }}"><div class="badgebutton">Human-Centered Design</div></a>
+		<a href="{{ url_for('badge_category', topic="Movement") }}"><div class="badgebutton">Working in the movement</div></a>
 </div>
 
 {% endblock %}

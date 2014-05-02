@@ -15,7 +15,6 @@ def index():  #This is the landing page
 	code_samples = SampleCode.query.all()	
 	return render_template("index.html", weeks=weeks,lessons = lessons, achievements = achievements, code_samples=code_samples)
 
-
 @app.route('/lessons')
 def lessons():
 	return render_template("lessons.html")
@@ -28,21 +27,12 @@ def badges():
 def codeityourself():
 	return render_template("codeityourself.html")
 
-
-
-@app.route('/achievements')
-def achievements():
-	achievements = Achievement.query.all()
-	return render_template("achievements.html", achievements = achievements)
-
-
 @app.route('/lesson/<id>')
 def lesson(id):
 	lesson = Lesson.query.get(id)
 	return render_template('lesson.html', lesson = lesson)
 
-
-@app.route('/code_sample/<id>')
-def code_sample(id):
-	code_sample = SampleCode.query.get(id)
-	return render_template('code_sample.html', code_sample = code_sample)
+@app.route('/badge_category/<topic>')
+def badge_category(topic):
+	badges = Achievement.query.filter_by(category=topic).all()
+	return render_template("badge_category.html", badges = badges, category = topic)
