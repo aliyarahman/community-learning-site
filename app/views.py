@@ -34,5 +34,5 @@ def lesson(id):
 
 @app.route('/badge_category/<topic>')
 def badge_category(topic):
-	badges = Achievement.query.filter_by(category=topic).all()
+	badges = Achievement.query.filter_by(category=topic).order_by("number").all()
 	return render_template("badge_category.html", badges = badges, category = topic)

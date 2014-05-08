@@ -1,0 +1,59 @@
+
+
+
+
+
+
+
+
+Assignment (Reading)
+
+(1) Close everything.
+
+(2) Write a Python script that loads the event_signups.csv file and prints out each person's first name.
+
+Use your template!!!!!!
+Remember that you'll also need to look at the csv file to find out in which cell the first name is stored!!!!
+
+
+
+
+(If you're done and you want a challenge: do the same thing, but only print out first names that start with 'D'. This requires you to add one more line of code before your print statement.)
+
+
+
+
+===============================================
+
+Assignment (Writing)
+
+(1) Close everything
+(2) Open a Python script that assigns four lists, one for each person in the class. Each list has their:
+	First name
+	Favorite color
+	Favorite food
+	Name of your first crush
+
+Ex:
+
+aliya = ['Aliya', 'Blackandred', 'Daal and rice', 'Prince']
+angie = [
+aurea = []
+dago = []
+
+
+(3) Then, underneath your list assignments, use the csv write code to create a csv that contains this info.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
