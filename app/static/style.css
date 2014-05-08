@@ -23,9 +23,9 @@ ul span				{	color: #696969 }
 						}
 .door:hover				{	box-shadow:5px 5px 5px #97A2A4;-moz-box-shadow:0 0 1px #AFBF45;-webkit-box-shadow:0 0 1px #AFBF45;
 					}
-#lessons_door		{	margin-left: 100px; background-color: #AEBE37;}
-#badges_door		{	background-color: #97A2A4;}
-#CIY_door			{	background-color: #21204A;}
+#lessons_door		{	margin-left: 100px; background-color: #AEBE37; background-image: url('../static/buttonback1.png');}
+#badges_door		{	background-color: #97A2A4; background-image: url('../static/buttonback2.png');}
+#CIY_door			{	background-color: #21204A; background-image: url('../static/buttonback3.png');}
 
 
 #weekholder_green, #weekholder_gray, #weekholder_blue	{	color: white;}
