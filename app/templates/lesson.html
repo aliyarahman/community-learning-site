@@ -5,9 +5,9 @@
 <br>
 <p><h3>Slides</h3>
 <ul>
-{% if lesson.prezi1 %}<li>{{lesson.prezi1_title}}: <a href="{{lesson.prezi1}}"> View and comment</a></li>{% else %}<li>None for this lesson</li>{% endif %}
-{% if lesson.prezi2 %}<li>{{lesson.prezi2_title}}: <a href="{{lesson.prezi2}}">View and comment</a></li>{% endif %}
-{% if lesson.prezi3 %}<li>{{lesson.prezi3_title}}: <a href="{{lesson.prezi3}}">View and comment</a> </li>{% endif %}
+{% if lesson.prezi1 %}<li><a href="{{lesson.prezi1}}">{{lesson.title}}</a></li>{% else %}<li>None for this lesson</li>{% endif %}
+{% if lesson.prezi2 %}<li><a href="{{lesson.prezi2}}">More slides</a></li>{% endif %}
+{% if lesson.prezi3 %}<li><a href="{{lesson.prezi3}}">Even more slides</a></li>{% endif %}
 </ul></p>
 
 <br>
