@@ -36,3 +36,8 @@ def lesson(id):
 def badge_category(topic):
 	badges = Achievement.query.filter_by(category=topic).order_by("number").all()
 	return render_template("badge_category.html", badges = badges, category = topic)
+
+@app.route('/badge_exercises/<id>')
+def badge_exercises(id):
+	badge = Achievement.query.get(id)
+	return render_template("badge_exercises.html", badge = badge)

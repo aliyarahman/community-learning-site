@@ -36,6 +36,10 @@ class Achievement(db.Model):
 	category = db.Column(db.String(140))
 	number = db.Column(db.Integer)
 	description = db.Column(db.Text)
+	woodshedding = db.Column(db.Text)
+	exercise1 = db.Column(db.Text)
+	exercise2 = db.Column(db.Text)
+	challenge = db.Column(db.Text)
 
 	def __repr__(self):
 		return '<Achievement %r>' % (self.name)

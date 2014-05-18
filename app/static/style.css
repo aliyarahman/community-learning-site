@@ -21,7 +21,7 @@ ul span				{	color: #696969 }
 						padding: 20px; padding-top: 140px; padding-bottom: -150px; margin: 20px;
 						color: white; font-size: 30px; font-weight: bold;
 						}
-.door:hover				{	box-shadow:5px 5px 5px #97A2A4;-moz-box-shadow:0 0 1px #AFBF45;-webkit-box-shadow:0 0 1px #AFBF45;
+.door:hover			{	box-shadow:5px 5px 5px #97A2A4;-moz-box-shadow:0 0 1px #AFBF45;-webkit-box-shadow:0 0 1px #AFBF45;
 					}
 #lessons_door		{	margin-left: 100px; background-color: #AEBE37; background-image: url('../static/buttonback1.png');}
 #badges_door		{	background-color: #97A2A4; background-image: url('../static/buttonback2.png');}
@@ -72,6 +72,12 @@ span.text-content span {display: table-cell;text-align: center;vertical-align: m
 					 font: normal 18px "Lucida Console", "Lucida Sans Typewriter", Monaco, 
 					 "Bitstream Vera Sans Mono", monospace;
 					 text-align: center; }
+.bigbadge                          {background-image: url('../static/medal_blank_large.jpg'); height:250px; width: 300px;
+                                         font: normal 24px "Lucida Console", "Lucida Sans Typewriter", Monaco, 
+                                         "Bitstream Vera Sans Mono", monospace;
+                                         text-align: center;}
+
+
 .badgename			{font: bold 18px "Lucida Console", "Lucida Sans Typewriter", Monaco, 
 					"Bitstream Vera Sans Mono", monospace;}
 

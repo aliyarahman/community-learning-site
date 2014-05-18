@@ -11,7 +11,8 @@
 	</div>
 </td>
 <td>
-		<span class="badgename"><br>{{badge.name}}</span><br>{{badge.description}}
+		<span class="badgename"><br>{{badge.name}}</span><br>{{badge.description}}<br><br>
+			{% if badge.woodshedding or badge.exercise1 or badge.exercise2 or badge.challenge %}<a href="{{ url_for('badge_exercises', id=badge.id )}}">Practice exercises</a>{% endif %}
 	</span>
 </td>
 </tr>

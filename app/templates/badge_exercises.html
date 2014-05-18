@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h2>{{badge.name}} ({{badge.category}} {{badge.number}})</h2>
+<br>
+<div class="bigbadge">
+      <br>{{badge.category}} {{badge.number}}<br><div><img src="../static/{{badge.category}}{{badge.number}}.png" height=150px></div>
+</div>
+<h3>Woodshedding</h3>
+<p>{% if badge.woodshedding %}{{badge.woodshedding}}{% endif %}</p>
+
+<br>
+<h3>Basic exercises</h3>
+<p>{% if badge.exercise1 %}
+	<i>Exercise 1</i>
+	<p>{{badge.exercise1}}</p>
+	{% endif %}</p>
+<br><p>{% if badge.exercise2 %}
+	<i>Exercise 2</i>
+	<p>{{badge.exercise2}}{% endif %}</p>
+</p>
+<br>
+<h3>Challenge</h3>
+<p>{% if badge.challenge %}{{badge.challenge}}{% endif %}</p>
+{% endblock %}
