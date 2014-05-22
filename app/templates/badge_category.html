@@ -1,13 +1,13 @@
 {% extends "base.html" %}
 {% block content %}
 
-<h1 class="page_header"> {{category}}.</h1>
+<h1 class="page_header"> {% if category=="FlaskDjango" %}Flask & Django{% else %}{{category}}{% endif %}.</h1>
 <table class="badgetable">
 {% for badge in badges %}
 <tr>
 <td>
 	<div class="badge">
-		<br>{{category}} {{badge.number}}<br><img src="../static/{{category}}{{badge.number}}.png" height=80px>
+		<br>{% if category=="FlaskDjango" %}Flask & Django{% else %}{{category}}{% endif %} {{badge.number}}<br><img src="../static/{{category}}{{badge.number}}.png" height=80px>
 	</div>
 </td>
 <td>

@@ -8,7 +8,8 @@
 	<body>
 
         <div id="banner">
-                <a href="{{ url_for('index') }}"><div class="navbutton">Home</div></a>
+                <a href="{{ url_for('lessons') }}"><div class="navbutton">Home</div></a>        
+                <a href="{{ url_for('badges') }}"><div class="navbutton">Badges</div></a>
         </div>
 
         <div id="header">
@@ -18,8 +19,13 @@
 
 	
 	<div id="main_content">
-	{% block content %}{% endblock %}
+	{% block content %}
+
+        {% endblock %}
 	</div>
+
+
+
 	</body>
 
 </html>
