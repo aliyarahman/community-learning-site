@@ -13,31 +13,38 @@ def index():  #This is the landing page
 	lessons = Lesson.query.order_by("week").order_by("day").all()
 	achievements = Achievement.query.all()
 	code_samples = SampleCode.query.all()	
-	return render_template("index.html", weeks=weeks,lessons = lessons, achievements = achievements, code_samples=code_samples)
+	title = "Community home"
+	return render_template("index.html", title=title, weeks=weeks,lessons = lessons, achievements = achievements, code_samples=code_samples)
 
 @app.route('/lessons')
 def lessons():
-	return render_template("lessons.html")
+	title = "Lessons"
+	return render_template("lessons.html", title =title)
 
 @app.route('/badges')
 def badges():
-	return render_template("badges.html")
+	title = "Badges"
+	return render_template("badges.html", title = title)
 
 @app.route('/codeityourself')
 def codeityourself():
-	return render_template("codeityourself.html")
+	title = "Code It Yourself"
+	return render_template("codeityourself.html", title = title)
 
 @app.route('/lesson/<id>')
 def lesson(id):
 	lesson = Lesson.query.get(id)
-	return render_template('lesson.html', lesson = lesson)
+	title = "Lesson"
+	return render_template('lesson.html', lesson = lesson, title = title)
 
 @app.route('/badge_category/<topic>')
 def badge_category(topic):
 	badges = Achievement.query.filter_by(category=topic).order_by("number").all()
-	return render_template("badge_category.html", badges = badges, category = topic)
+	title = "Badge category"
+	return render_template("badge_category.html", badges = badges, category = topic, title = title)
 
 @app.route('/badge_exercises/<id>')
 def badge_exercises(id):
 	badge = Achievement.query.get(id)
-	return render_template("badge_exercises.html", badge = badge)
+	title = "Exercises"
+	return render_template("badge_exercises.html", badge = badge, title = title)
