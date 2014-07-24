@@ -5,13 +5,13 @@ BASH,The Virtual Reality,3,Create a new virtual environment
 BASH,The Clone,4,Use the terminal to clone an existing Github repository to your computer
 BASH,The Launch,5,Deploy a Flask or Django app to Heroku
 CSS,The Style Icon,1,Link a CSS file to an HTML document to change the background color of a div and add a dashed border to it
-CSS,,2,Use one class and one ID in your HTML/CSS to style different elements of your page.
-CSS,,3,Use a parent/child class or ID selector to style a page element.
+CSS,The Class Consciousness,2,Use one class and one ID in your HTML/CSS to style different elements of your page.
+CSS,The Fam,3,Use a parent/child class or ID selector to style a page element.
 Design,The Storyteller,1,Write a set of 5 user stories for your proposed practice app
 Design,The Wires,2,Draw wireframes for at least three screens in your example app/site
 Design,The Table Flip,3,Draw database schema that lays out and connects foreign keys for three tables in your app
-Design,,4,Set up a Trello board and add some initial cards to help you start a project in Agile methodology
-Design,,5,"Timebox one code sprint in an Agile project, using a Trello board"
+Design,The Line of Scrum,4,Set up a Trello board and add some initial cards to help you start a project in Agile methodology
+Design,The Sprinter,5,"Timebox one code sprint in an Agile project, using a Trello board"
 Design,The MVP,6,Scope a project to its minimum viable product (write out the specs for the MVP)
 FlaskDjango,The Thermos,1,Create and run a Flask app on your local machine that returns “Hello world”
 FlaskDjango,The Viewmaster,2,Create a Flask or Django app that has three views
