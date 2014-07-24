@@ -1,0 +1,76 @@
+CATEGORY,NAME,NUMBER,OUTCOME
+BASH,The Niobe,1,Use the BASH command line to make a set of 14 folders to hold your training work
+BASH,The Octocat,2,Use the Terminal to push to Github
+BASH,The Virtual Reality,3,Create a new virtual environment
+BASH,,4,Use the terminal to clone an existing Github repository to your computer
+BASH,,5,Deploy a Flask or Django app to Heroku
+CSS,The Style Icon,1,Link a CSS file to an HTML document to change the background color of a div and add a dashed border to it
+CSS,,2,Use one class and one ID in your HTML/CSS to style different elements of your page.
+CSS,,3,Use a parent/child class or ID selector to style a page element.
+Design,The Storyteller,1,Write a set of 5 user stories for your proposed practice app
+Design,The Wires,2,Draw wireframes for at least three screens in your example app/site
+Design,The Table Flip,3,Draw database schema that lays out and connects foreign keys for three tables in your app
+Design,,4,Set up a Trello board and add some initial cards to help you start a project in Agile methodology
+Design,,5,"Timebox one code sprint in an Agile project, using a Trello board"
+Design,The MVP,6,Scope a project to its minimum viable product (write out the specs for the MVP)
+FlaskDjango,The Thermos,1,Create and run a Flask app on your local machine that returns “Hello world”
+FlaskDjango,The Viewmaster,2,Create a Flask or Django app that has three views
+FlaskDjango,The Form Feeder,4,Add a working form to your Flask app
+FlaskDjango,The Database Diver,3,Connect a Postgres database to your Flask app and use it to add 10 data points
+FlaskDjango,,4,Use template rendering to link together three views via clickable links
+FlaskDjango,,5,Use template inheritance to load an HTML template that draws on a base template for at least two of your views
+FlaskDjango,,6,Write a models file that has at least three object classes in it
+FlaskDjango,,7,Incorporate a stylesheet and one image into your application – make sure it loads
+FlaskDjango,,8,Pass data into a template and have it render correctly when the user goes to that view
+FlaskDjango,,9,Django: Create a drawing or study sheet to explain Django's file structure
+FlaskDjango,,10,Django: Use the Python shell to add object instances
+FlaskDjango,,11,Django: Use a foreign key to related two models and add two records that are linked
+FlaskDjango,,12,Django: Use a ManyToMany field to related two models and call on that relationship to display data in a template
+FlaskDjango,,13,Django: Configure your admin panel to show your models
+FlaskDjango,,14,Django: Incorporate email sending functionality
+FlaskDjango,,15,Django: Incorporate user login functionality
+HTML,The Elemental,1,Write and load an HTML document that has two headlines of different sizes and a paragraph of plain text
+HTML,,2,Write an HTML document that uses nested divs
+HTML,,3,Add three working links to an HTML document
+HTML,,4,"Create an HTML skeleton document that has head, body, title, and CSS link tags in the correct places"
+HTML,,5,Add an unordered list with three list items to an HTML page
+Movement,The Upswing,1,Write a professional development plan
+Movement,The Rolodex,2,Set up a bi-weekly check-in with the Program Director using Google calendar
+Movement,Teach!,4,Write an annotated trainer's agenda for a one-hour training on a subject of your expertise - then run that training for a group of at least 10
+Movement,Git with It,3,Get a Github account and start a new repository
+Movement,,4,Write and edit a resume that could be used to interview for a tech position in the social justice movement
+Movement,,5,Prepare for a mock interview
+Movement,,6,Prepare for and attend a job fair
+Movement,,7,"Prep for, attend, and do follow-up for a networking event"
+Python,The Snake Egg,1,Store and recall ('print') three kinds of variables in Python
+Python,The Scriptwriter,2,Write and run a Python script that asks three questions
+Python,Dangerous Compounds,4,Use compound or embedded conditionals to clean up a .csv file
+Python,Spring Cleaning,5,Write a script that cleans up one 'dirty' quality of a .csv file that has at least 500 records
+Python,The Meanwhile,6,Write a script that uses a while loop to count down (in real sentences) from 100
+Python,The Coil,3,Write a Python script that loops through a list of students in this class and prints the same sentence about each of them
+Python,The Multifunction,7,Write a script that defines and calls three functions
+Python,,8,Create an object class and use it to make two instances of that object
+Python,,9,Write a script that uses if statements to direct its flow
+Python,,10,Use the request library to make an API call
+Python,Slice and Dice,11,Use slicing to select one value from a Python list and print it to the screen
+SQL,The Field Director,1,Create a new database with two tables of at least three fields each
+SQL,Query Theory,2,Create two related tables with ten data points each
+SQL,,3,Load .csv data into a SQL table using the COPY FROM command
+SQL,,4,Create a .csv from your SQL data using the COPY TO command
+SQL,Command Center,5,Use the Postgres command line to create a database and list out its existing tables
+SQL,,6,Locate and download a .csv from data.gov that is relevant to an issue you care about
+SQL,,7,Write a data memo to explain what a .csv data set contains in language that a non-coder could understand
+SQL,,8,Write ten questions in human language about a data set that could be answered using SQL commands
+SQL,,9,Use a SELECT statement with a WHERE clause to filter data in a query
+SQL,,10,Use the SUM command in a SQL query
+SQL,,11,Use the COUNT command in a SQL query
+SQL,,12,Use the AS command in a SQL query
+SQL,,13,Use the ORDER BY command in a SQL query to display a list in descending order
+SQL,,14,Use the GROUP BY command in a SQL query
+SQL,,15,Perform an inner join in a database query
+SQL,,16,Perform a left join in a database query
+SQL,,17,"Create a study sheet to help you understand the relationship between: database, table, field, record, row, column, SQL, and Postgres"
+JavaScript,,1,Link a JavaScript file to your page
+JavaScript,,2,"Add a line to your HTML that links to a jQuery library, either saved locally or online"
+JavaScript,,3,Use jQuery to make a div disappear when it is clicked
+JavaScript,,4,Use jQuery to make a div f text appear when something is rolled over

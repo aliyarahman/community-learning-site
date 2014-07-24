@@ -1,4 +1,4 @@
 *.pyc
 config.py
 devconfig.py
-
+*.sql
