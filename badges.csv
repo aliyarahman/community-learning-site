@@ -2,8 +2,8 @@ CATEGORY,NAME,NUMBER,OUTCOME
 BASH,The Niobe,1,Use the BASH command line to make a set of 14 folders to hold your training work
 BASH,The Octocat,2,Use the Terminal to push to Github
 BASH,The Virtual Reality,3,Create a new virtual environment
-BASH,,4,Use the terminal to clone an existing Github repository to your computer
-BASH,,5,Deploy a Flask or Django app to Heroku
+BASH,The Clone,4,Use the terminal to clone an existing Github repository to your computer
+BASH,The Launch,5,Deploy a Flask or Django app to Heroku
 CSS,The Style Icon,1,Link a CSS file to an HTML document to change the background color of a div and add a dashed border to it
 CSS,,2,Use one class and one ID in your HTML/CSS to style different elements of your page.
 CSS,,3,Use a parent/child class or ID selector to style a page element.
