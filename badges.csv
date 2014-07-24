@@ -17,7 +17,7 @@ FlaskDjango,The Thermos,1,Create and run a Flask app on your local machine that 
 FlaskDjango,The Viewmaster,2,Create a Flask or Django app that has three views
 FlaskDjango,The Form Feeder,3,Add a working form to your Flask app
 FlaskDjango,The Database Diver,4,Connect a Postgres database to your Flask app and use it to add 10 data points
-FlaskDjango,,5,Use template rendering to link together three views via clickable links
+FlaskDjango,The Triple Jump,5,Use template rendering to link together three views via clickable links
 FlaskDjango,,6,Use template inheritance to load an HTML template that draws on a base template for at least two of your views
 FlaskDjango,,7,Write a models file that has at least three object classes in it
 FlaskDjango,,8,Incorporate a stylesheet and one image into your application – make sure it loads
@@ -73,4 +73,4 @@ SQL,,17,"Create a study sheet to help you understand the relationship between: d
 JavaScript,,1,Link a JavaScript file to your page
 JavaScript,,2,"Add a line to your HTML that links to a jQuery library, either saved locally or online"
 JavaScript,,3,Use jQuery to make a div disappear when it is clicked
-JavaScript,,4,Use jQuery to make a div f text appear when something is rolled over
+JavaScript,,4,Use jQuery to make a div containing text appear when something is rolled over
