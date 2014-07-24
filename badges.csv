@@ -15,20 +15,20 @@ Design,,5,"Timebox one code sprint in an Agile project, using a Trello board"
 Design,The MVP,6,Scope a project to its minimum viable product (write out the specs for the MVP)
 FlaskDjango,The Thermos,1,Create and run a Flask app on your local machine that returns “Hello world”
 FlaskDjango,The Viewmaster,2,Create a Flask or Django app that has three views
-FlaskDjango,The Form Feeder,4,Add a working form to your Flask app
-FlaskDjango,The Database Diver,3,Connect a Postgres database to your Flask app and use it to add 10 data points
-FlaskDjango,,4,Use template rendering to link together three views via clickable links
-FlaskDjango,,5,Use template inheritance to load an HTML template that draws on a base template for at least two of your views
-FlaskDjango,,6,Write a models file that has at least three object classes in it
-FlaskDjango,,7,Incorporate a stylesheet and one image into your application – make sure it loads
-FlaskDjango,,8,Pass data into a template and have it render correctly when the user goes to that view
-FlaskDjango,,9,Django: Create a drawing or study sheet to explain Django's file structure
-FlaskDjango,,10,Django: Use the Python shell to add object instances
-FlaskDjango,,11,Django: Use a foreign key to related two models and add two records that are linked
-FlaskDjango,,12,Django: Use a ManyToMany field to related two models and call on that relationship to display data in a template
-FlaskDjango,,13,Django: Configure your admin panel to show your models
-FlaskDjango,,14,Django: Incorporate email sending functionality
-FlaskDjango,,15,Django: Incorporate user login functionality
+FlaskDjango,The Form Feeder,3,Add a working form to your Flask app
+FlaskDjango,The Database Diver,4,Connect a Postgres database to your Flask app and use it to add 10 data points
+FlaskDjango,,5,Use template rendering to link together three views via clickable links
+FlaskDjango,,6,Use template inheritance to load an HTML template that draws on a base template for at least two of your views
+FlaskDjango,,7,Write a models file that has at least three object classes in it
+FlaskDjango,,8,Incorporate a stylesheet and one image into your application – make sure it loads
+FlaskDjango,,9,Pass data into a template and have it render correctly when the user goes to that view
+FlaskDjango,,10,Django: Create a drawing or study sheet to explain Django's file structure
+FlaskDjango,,11,Django: Use the Python shell to add object instances
+FlaskDjango,,12,Django: Use a foreign key to related two models and add two records that are linked
+FlaskDjango,,13,Django: Use a ManyToMany field to related two models and call on that relationship to display data in a template
+FlaskDjango,,14,Django: Configure your admin panel to show your models
+FlaskDjango,,15,Django: Incorporate email sending functionality
+FlaskDjango,,16,Django: Incorporate user login functionality
 HTML,The Elemental,1,Write and load an HTML document that has two headlines of different sizes and a paragraph of plain text
 HTML,,2,Write an HTML document that uses nested divs
 HTML,,3,Add three working links to an HTML document
@@ -36,18 +36,18 @@ HTML,,4,"Create an HTML skeleton document that has head, body, title, and CSS li
 HTML,,5,Add an unordered list with three list items to an HTML page
 Movement,The Upswing,1,Write a professional development plan
 Movement,The Rolodex,2,Set up a bi-weekly check-in with the Program Director using Google calendar
-Movement,Teach!,4,Write an annotated trainer's agenda for a one-hour training on a subject of your expertise - then run that training for a group of at least 10
-Movement,Git with It,3,Get a Github account and start a new repository
-Movement,,4,Write and edit a resume that could be used to interview for a tech position in the social justice movement
-Movement,,5,Prepare for a mock interview
-Movement,,6,Prepare for and attend a job fair
-Movement,,7,"Prep for, attend, and do follow-up for a networking event"
+Movement,Teach!,3,Write an annotated trainer's agenda for a one-hour training on a subject of your expertise - then run that training for a group of at least 10
+Movement,Git with It,4,Get a Github account and start a new repository
+Movement,,5,Write and edit a resume that could be used to interview for a tech position in the social justice movement
+Movement,,6,Prepare for a mock interview
+Movement,,7,Prepare for and attend a job fair
+Movement,,8,"Prep for, attend, and do follow-up for a networking event"
 Python,The Snake Egg,1,Store and recall ('print') three kinds of variables in Python
 Python,The Scriptwriter,2,Write and run a Python script that asks three questions
-Python,Dangerous Compounds,4,Use compound or embedded conditionals to clean up a .csv file
-Python,Spring Cleaning,5,Write a script that cleans up one 'dirty' quality of a .csv file that has at least 500 records
-Python,The Meanwhile,6,Write a script that uses a while loop to count down (in real sentences) from 100
-Python,The Coil,3,Write a Python script that loops through a list of students in this class and prints the same sentence about each of them
+Python,Dangerous Compounds,3,Use compound or embedded conditionals to clean up a .csv file
+Python,Spring Cleaning,4,Write a script that cleans up one 'dirty' quality of a .csv file that has at least 500 records
+Python,The Meanwhile,5,Write a script that uses a while loop to count down (in real sentences) from 100
+Python,The Coil,6,Write a Python script that loops through a list of students in this class and prints the same sentence about each of them
 Python,The Multifunction,7,Write a script that defines and calls three functions
 Python,,8,Create an object class and use it to make two instances of that object
 Python,,9,Write a script that uses if statements to direct its flow
