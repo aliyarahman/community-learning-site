@@ -32,8 +32,8 @@ FlaskDjango,Security!,16,Django: Incorporate user login functionality
 HTML,The Elemental,1,Write and load an HTML document that has two headlines of different sizes and a paragraph of plain text
 HTML,The Nesting Behavior,2,Write an HTML document that uses nested divs
 HTML,The Link-Up,3,Add three working links to an HTML document
-HTML,The Class Consciousness,4,"Create an HTML skeleton document that has head, body, title, and CSS link tags in the correct places"
-HTML,The Listing,5,Add an unordered list with three list items to an HTML page
+HTML,Bones,4,"Create an HTML skeleton document that has head, body, title, and CSS link tags in the correct places"
+HTML,The Grocery List,5,Add an unordered list with three list items to an HTML page
 Movement,The Upswing,1,Write a professional development plan
 Movement,The Rolodex,2,Set up a bi-weekly check-in with the Program Director using Google calendar
 Movement,Teach!,3,Write an annotated trainer's agenda for a one-hour training on a subject of your expertise - then run that training for a group of at least 10
@@ -49,7 +49,7 @@ Python,Spring Cleaning,4,Write a script that cleans up one 'dirty' quality of a 
 Python,The Meanwhile,5,Write a script that uses a while loop to count down (in real sentences) from 100
 Python,The Coil,6,Write a Python script that loops through a list of students in this class and prints the same sentence about each of them
 Python,The Multifunction,7,Write a script that defines and calls three functions
-Python,A Whole Nother Class,8,Create an object class and use it to make two instances of that object
+Python,Objection,8,Create an object class and use it to make two instances of that object
 Python,On One Condition,9,Write a script that uses if statements to direct its flow
 Python,"Your Data, Please",10,Use the request library to make an API call
 Python,Slice and Dice,11,Use slicing to select one value from a Python list and print it to the screen
