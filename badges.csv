@@ -6,7 +6,7 @@ BASH,The Clone,4,Use the terminal to clone an existing Github repository to your
 BASH,The Launch,5,Deploy a Flask or Django app to Heroku
 CSS,The Style Icon,1,Link a CSS file to an HTML document to change the background color of a div and add a dashed border to it
 CSS,The Class Consciousness,2,Use one class and one ID in your HTML/CSS to style different elements of your page.
-CSS,The Fam,3,Use a parent/child class or ID selector to style a page element.
+CSS,Family Style,3,Use a parent/child class or ID selector to style a page element.
 Design,The Storyteller,1,Write a set of 5 user stories for your proposed practice app
 Design,The Wires,2,Draw wireframes for at least three screens in your example app/site
 Design,The Table Flip,3,Draw database schema that lays out and connects foreign keys for three tables in your app
@@ -18,30 +18,30 @@ FlaskDjango,The Viewmaster,2,Create a Flask or Django app that has three views
 FlaskDjango,The Form Feeder,3,Add a working form to your Flask app
 FlaskDjango,The Database Diver,4,Connect a Postgres database to your Flask app and use it to add 10 data points
 FlaskDjango,The Triple Jump,5,Use template rendering to link together three views via clickable links
-FlaskDjango,,6,Use template inheritance to load an HTML template that draws on a base template for at least two of your views
-FlaskDjango,,7,Write a models file that has at least three object classes in it
-FlaskDjango,,8,Incorporate a stylesheet and one image into your application – make sure it loads
-FlaskDjango,,9,Pass data into a template and have it render correctly when the user goes to that view
-FlaskDjango,,10,Django: Create a drawing or study sheet to explain Django's file structure
-FlaskDjango,,11,Django: Use the Python shell to add object instances
-FlaskDjango,,12,Django: Use a foreign key to related two models and add two records that are linked
-FlaskDjango,,13,Django: Use a ManyToMany field to related two models and call on that relationship to display data in a template
-FlaskDjango,,14,Django: Configure your admin panel to show your models
-FlaskDjango,,15,Django: Incorporate email sending functionality
-FlaskDjango,,16,Django: Incorporate user login functionality
+FlaskDjango,Basic.,6,Use template inheritance to draw on a base template in at least two of your views
+FlaskDjango,The Runway,7,Write a models file that has at least three object classes in it
+FlaskDjango,Picture It,8,Incorporate a stylesheet and one image into your application – make sure it loads
+FlaskDjango,The Reveal,9,Pass data into a template and have it render correctly when the user goes to that view
+FlaskDjango,Sketch Artist,10,Django: Create a drawing or study sheet to explain Django's file structure
+FlaskDjango,The Shell Game,11,Django: Use the Python shell to add object instances
+FlaskDjango,Do We Know Each Other?,12,Django: Use a foreign key to related two models and add two records that are linked
+FlaskDjango,All These Things,13,Django: Use a ManyToMany field to related two models and call on that relationship to display data in a template
+FlaskDjango,Behind The Curtain,14,Django: Configure your admin panel to show your models
+FlaskDjango,The Inbox,15,Django: Incorporate email sending functionality
+FlaskDjango,Security!,16,Django: Incorporate user login functionality
 HTML,The Elemental,1,Write and load an HTML document that has two headlines of different sizes and a paragraph of plain text
-HTML,,2,Write an HTML document that uses nested divs
-HTML,,3,Add three working links to an HTML document
-HTML,,4,"Create an HTML skeleton document that has head, body, title, and CSS link tags in the correct places"
-HTML,,5,Add an unordered list with three list items to an HTML page
+HTML,The Nesting Behavior,2,Write an HTML document that uses nested divs
+HTML,The Link-Up,3,Add three working links to an HTML document
+HTML,The Class Consciousness,4,"Create an HTML skeleton document that has head, body, title, and CSS link tags in the correct places"
+HTML,The Listing,5,Add an unordered list with three list items to an HTML page
 Movement,The Upswing,1,Write a professional development plan
 Movement,The Rolodex,2,Set up a bi-weekly check-in with the Program Director using Google calendar
 Movement,Teach!,3,Write an annotated trainer's agenda for a one-hour training on a subject of your expertise - then run that training for a group of at least 10
 Movement,Git with It,4,Get a Github account and start a new repository
-Movement,,5,Write and edit a resume that could be used to interview for a tech position in the social justice movement
-Movement,,6,Prepare for a mock interview
-Movement,,7,Prepare for and attend a job fair
-Movement,,8,"Prep for, attend, and do follow-up for a networking event"
+Movement,On Paper,5,Write and edit a resume that could be used to interview for a tech position in the social justice movement
+Movement,The Shoe Game,6,Prepare for a mock interview
+Movement,The Roleplay,7,Prepare for and attend a job fair
+Movement,The Business Card,8,"Prep for, attend, and do follow-up for a networking event"
 Python,The Snake Egg,1,Store and recall ('print') three kinds of variables in Python
 Python,The Scriptwriter,2,Write and run a Python script that asks three questions
 Python,Dangerous Compounds,3,Use compound or embedded conditionals to clean up a .csv file
@@ -49,28 +49,28 @@ Python,Spring Cleaning,4,Write a script that cleans up one 'dirty' quality of a 
 Python,The Meanwhile,5,Write a script that uses a while loop to count down (in real sentences) from 100
 Python,The Coil,6,Write a Python script that loops through a list of students in this class and prints the same sentence about each of them
 Python,The Multifunction,7,Write a script that defines and calls three functions
-Python,,8,Create an object class and use it to make two instances of that object
-Python,,9,Write a script that uses if statements to direct its flow
-Python,,10,Use the request library to make an API call
+Python,A Whole Nother Class,8,Create an object class and use it to make two instances of that object
+Python,On One Condition,9,Write a script that uses if statements to direct its flow
+Python,"Your Data, Please",10,Use the request library to make an API call
 Python,Slice and Dice,11,Use slicing to select one value from a Python list and print it to the screen
 SQL,The Field Director,1,Create a new database with two tables of at least three fields each
 SQL,Query Theory,2,Create two related tables with ten data points each
-SQL,,3,Load .csv data into a SQL table using the COPY FROM command
-SQL,,4,Create a .csv from your SQL data using the COPY TO command
+SQL,Bring It In,3,Load .csv data into a SQL table using the COPY FROM command
+SQL,Kick It Out,4,Create a .csv from your SQL data using the COPY TO command
 SQL,Command Center,5,Use the Postgres command line to create a database and list out its existing tables
-SQL,,6,Locate and download a .csv from data.gov that is relevant to an issue you care about
-SQL,,7,Write a data memo to explain what a .csv data set contains in language that a non-coder could understand
-SQL,,8,Write ten questions in human language about a data set that could be answered using SQL commands
-SQL,,9,Use a SELECT statement with a WHERE clause to filter data in a query
-SQL,,10,Use the SUM command in a SQL query
-SQL,,11,Use the COUNT command in a SQL query
-SQL,,12,Use the AS command in a SQL query
-SQL,,13,Use the ORDER BY command in a SQL query to display a list in descending order
-SQL,,14,Use the GROUP BY command in a SQL query
-SQL,,15,Perform an inner join in a database query
-SQL,,16,Perform a left join in a database query
-SQL,,17,"Create a study sheet to help you understand the relationship between: database, table, field, record, row, column, SQL, and Postgres"
-JavaScript,,1,Link a JavaScript file to your page
-JavaScript,,2,"Add a line to your HTML that links to a jQuery library, either saved locally or online"
-JavaScript,,3,Use jQuery to make a div disappear when it is clicked
-JavaScript,,4,Use jQuery to make a div containing text appear when something is rolled over
+SQL,Open Data,6,Locate and download a .csv from data.gov that is relevant to an issue you are working on
+SQL,What It Basically Says,7,Write a data memo to explain what a .csv data set contains in language that a non-coder could understand
+SQL,The Translater,8,Write ten questions in human language about a data set that could be answered using SQL commands
+SQL,You Picked What?,9,Use a SELECT statement with a WHERE clause to filter data in a query
+SQL,Add It Up,10,Use the SUM command in a SQL query
+SQL,"1,2,3,4",11,Use the COUNT command in a SQL query
+SQL,Longest Field Name Ever,12,Use the AS command in a SQL query
+SQL,All In Good Order,13,Use the ORDER BY command in a SQL query to display a list in descending order
+SQL,Stick Together Now,14,Use the GROUP BY command in a SQL query
+SQL,Where They Match Up,15,Perform an inner join in a database query
+SQL,Just These Ones,16,Perform a left join in a database query
+SQL,The Notetaker,17,"Create a study sheet to help you understand the relationship between: database, table, field, record, row, column, SQL, and Postgres"
+JavaScript,The Import,1,Link a JavaScript file to your page
+JavaScript,The Library Card,2,"Add a line to your HTML that links to a jQuery library, either saved locally or online"
+JavaScript,The David Blaine,3,Use jQuery to make a div disappear when it is clicked
+JavaScript,Surprise!,4,Use jQuery to make a div containing text appear when something is rolled over
