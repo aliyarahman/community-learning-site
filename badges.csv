@@ -72,5 +72,5 @@ SQL,Just These Ones,16,Perform a left join in a database query
 SQL,The Notetaker,17,"Create a study sheet to help you understand the relationship between: database, table, field, record, row, column, SQL, and Postgres"
 JavaScript,The Import,1,Link a JavaScript file to your page
 JavaScript,The Library Card,2,"Add a line to your HTML that links to a jQuery library, either saved locally or online"
-JavaScript,The David Blaine,3,Use jQuery to make a div disappear when it is clicked
+JavaScript,The Blaine,3,Use jQuery to make a div disappear when it is clicked
 JavaScript,Surprise!,4,Use jQuery to make a div containing text appear when something is rolled over
